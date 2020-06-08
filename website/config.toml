@@ -77,11 +77,19 @@ version_menu = "Releases"
 github_repo = "https://github.com/operator-framework/operator-sdk"
 
 [[params.versions]]
-  version = "master"
-  url = "/docs"
+  version = "Latest Release"
+  url = "https://sdk.operatorframework.io"
 
 [[params.versions]]
-  version = "v0.16"
+  version = "master"
+  url = "https://master.sdk.operatorframework.io"
+
+[[params.versions]]
+  version = "v0.18"
+  url = "https://v0-18.sdk.operatorframework.io"
+
+[[params.versions]]
+  version = "Legacy (0.16 and earlier)"
   url = "https://github.com/operator-framework/operator-sdk/tree/v0.16.x/doc"
 
 

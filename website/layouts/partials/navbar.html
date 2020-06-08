@@ -15,7 +15,13 @@
     </ul>
     </nav>
    
+    {{ if  .Site.Params.versions }}
+    <li class="nav-item dropdown d-none d-lg-block">
+    {{ partial "navbar-version-selector.html" . }}
+    </li>
+    {{ end }}
     <div class="of-header-main__search">
 		{{ partial "search-input.html" . }}
     </div>
+
   </header>
